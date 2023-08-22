@@ -597,6 +597,7 @@ async function doBuild({
 
 		// Support multiple use of `--image-name`
 		const imageNames = (argImageName && (Array.isArray(argImageName) ? argImageName : [argImageName]) as string[]) || undefined;
+		console.log("DEBUG: image names calculated: ", imageNames)
 
 		if (isDockerFileConfig(config)) {
 

@@ -1,14 +1,14 @@
 {
-	"name": "@devcontainers/cli",
+	"name": "@linking/devcontainer-cli",
 	"description": "Dev Containers CLI",
 	"version": "0.50.2",
 	"bin": {
 		"devcontainer": "devcontainer.js"
 	},
-	"author": "Microsoft Corporation",
+	"author": "linkinghack",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/devcontainers/cli.git"
+		"url": "https://github.com/linkinghack/devcontainer-cli.git"
 	},
 	"bugs": {
 		"url": "https://github.com/devcontainers/cli/issues"
